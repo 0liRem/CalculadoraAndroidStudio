@@ -1,0 +1,285 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="181dp"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/TvRes"
+            android:layout_width="409dp"
+            android:layout_height="174dp"
+            android:autoText="false"
+            android:clickable="false"
+            android:ems="10"
+            android:inputType="text"
+            android:textSize="60sp" />
+    </LinearLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="180dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/bt3"
+                android:layout_width="72dp"
+                android:layout_height="83dp"
+                android:onClick="calcular"
+                android:text="^"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="490dp" />
+
+            <Button
+                android:id="@+id/bt4"
+                android:layout_width="69dp"
+                android:layout_height="86dp"
+                android:onClick="calcular"
+                android:text="√"
+                tools:layout_editor_absoluteX="77dp"
+                tools:layout_editor_absoluteY="489dp" />
+
+            <Button
+                android:id="@+id/bt5"
+                android:layout_width="wrap_content"
+                android:layout_height="83dp"
+                android:onClick="borrar"
+                android:text="Reset"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="490dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow
+            android:layout_width="429dp"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/bt7"
+                android:layout_width="80dp"
+                android:layout_height="87dp"
+                android:onClick="calcular"
+                android:text="("
+                tools:layout_editor_absoluteX="149dp"
+                tools:layout_editor_absoluteY="488dp" />
+
+            <Button
+                android:id="@+id/bt6"
+                android:layout_width="86dp"
+                android:layout_height="88dp"
+                android:onClick="calcular"
+                android:text=")"
+                tools:layout_editor_absoluteX="229dp"
+                tools:layout_editor_absoluteY="487dp" />
+
+            <Button
+                android:id="@+id/bt8"
+                android:layout_width="65dp"
+                android:layout_height="84dp"
+                android:onClick="calcular"
+                android:text="/"
+                tools:layout_editor_absoluteX="285dp"
+                tools:layout_editor_absoluteY="576dp" />
+
+            <Button
+                android:id="@+id/bt9"
+                android:layout_width="94dp"
+                android:layout_height="83dp"
+                android:onClick="calcular"
+                android:text="e"
+                tools:layout_editor_absoluteX="313dp"
+                tools:layout_editor_absoluteY="489dp" />
+
+        </TableRow>
+    </TableLayout>
+
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="177dp">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/bt10"
+                android:layout_width="94dp"
+                android:layout_height="87dp"
+                android:onClick="calcular"
+                android:text="7"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="575dp" />
+
+            <Button
+                android:id="@+id/bt11"
+                android:layout_width="94dp"
+                android:layout_height="87dp"
+                android:onClick="calcular"
+                android:text="8"
+                tools:layout_editor_absoluteX="96dp"
+                tools:layout_editor_absoluteY="575dp" />
+
+            <Button
+                android:id="@+id/bt12"
+                android:layout_width="94dp"
+                android:layout_height="87dp"
+                android:onClick="calcular"
+                android:text="9"
+                tools:layout_editor_absoluteX="190dp"
+                tools:layout_editor_absoluteY="575dp" />
+
+            <Button
+                android:id="@+id/bt13"
+                android:layout_width="54dp"
+                android:layout_height="85dp"
+                android:onClick="calcular"
+                android:text="x"
+                tools:layout_editor_absoluteX="355dp"
+                tools:layout_editor_absoluteY="575dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" >
+
+            <Button
+                android:id="@+id/bt14"
+                android:layout_width="94dp"
+                android:layout_height="87dp"
+                android:onClick="calcular"
+                android:text="4"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="662dp" />
+
+            <Button
+                android:id="@+id/bt15"
+                android:layout_width="94dp"
+                android:layout_height="87dp"
+                android:onClick="calcular"
+                android:text="5"
+                tools:layout_editor_absoluteX="96dp"
+                tools:layout_editor_absoluteY="662dp" />
+
+            <Button
+                android:id="@+id/bt16"
+                android:layout_width="94dp"
+                android:layout_height="87dp"
+                android:onClick="calcular"
+                android:text="6"
+                tools:layout_editor_absoluteX="190dp"
+                tools:layout_editor_absoluteY="662dp" />
+
+            <Button
+                android:id="@+id/bt17"
+                android:layout_width="124dp"
+                android:layout_height="84dp"
+                android:onClick="calcular"
+                android:text="-"
+                tools:layout_editor_absoluteX="285dp"
+                tools:layout_editor_absoluteY="662dp" />
+
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/bt18"
+                android:layout_width="94dp"
+                android:layout_height="87dp"
+                android:onClick="calcular"
+                android:text="1"
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="749dp" />
+
+            <Button
+                android:id="@+id/bt19"
+                android:layout_width="94dp"
+                android:layout_height="87dp"
+                android:onClick="calcular"
+                android:text="2"
+                tools:layout_editor_absoluteX="94dp"
+                tools:layout_editor_absoluteY="749dp" />
+
+            <Button
+                android:id="@+id/button27"
+                android:layout_width="wrap_content"
+                android:layout_height="87dp"
+                android:onClick="calcular"
+                android:text="3"
+                tools:layout_editor_absoluteX="191dp"
+                tools:layout_editor_absoluteY="751dp" />
+
+            <Button
+                android:id="@+id/bt20"
+                android:layout_width="120dp"
+                android:layout_height="85dp"
+                android:onClick="calcular"
+                android:text="+"
+                tools:layout_editor_absoluteX="289dp"
+                tools:layout_editor_absoluteY="749dp" />
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <Button
+                android:id="@+id/button25"
+                android:layout_width="96dp"
+                android:layout_height="77dp"
+                android:onClick="calcular"
+                android:text="."
+                tools:layout_editor_absoluteX="0dp"
+                tools:layout_editor_absoluteY="838dp" />
+
+            <Button
+                android:id="@+id/bt2"
+                android:layout_width="127dp"
+                android:layout_height="75dp"
+                android:onClick="calcular"
+                android:text="0"
+                tools:layout_editor_absoluteX="96dp"
+                tools:layout_editor_absoluteY="838dp" />
+
+            <Button
+                android:id="@+id/btig"
+                android:layout_width="96dp"
+                android:layout_height="77dp"
+                android:onClick="cal"
+                android:text="="
+                tools:layout_editor_absoluteX="313dp"
+                tools:layout_editor_absoluteY="838dp" />
+
+            <Button
+                android:id="@+id/bt21"
+                android:layout_width="87dp"
+                android:layout_height="78dp"
+                android:onClick="atras"
+                android:text="←"
+                tools:layout_editor_absoluteX="221dp"
+                tools:layout_editor_absoluteY="838dp" />
+        </TableRow>
+    </TableLayout>
+
+</LinearLayout>
